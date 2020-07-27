@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/RecomenderSystemGroup5.git/static/css/main.ae80000b.chunk.css",
-    "main.js": "/RecomenderSystemGroup5.git/static/js/main.f74233ce.chunk.js",
-    "main.js.map": "/RecomenderSystemGroup5.git/static/js/main.f74233ce.chunk.js.map",
-    "runtime-main.js": "/RecomenderSystemGroup5.git/static/js/runtime-main.9517bcce.js",
-    "runtime-main.js.map": "/RecomenderSystemGroup5.git/static/js/runtime-main.9517bcce.js.map",
-    "static/js/2.3f155aaa.chunk.js": "/RecomenderSystemGroup5.git/static/js/2.3f155aaa.chunk.js",
-    "static/js/2.3f155aaa.chunk.js.map": "/RecomenderSystemGroup5.git/static/js/2.3f155aaa.chunk.js.map",
-    "index.html": "/RecomenderSystemGroup5.git/index.html",
-    "precache-manifest.933aa2196f0803e536c0b11bd1a88c4c.js": "/RecomenderSystemGroup5.git/precache-manifest.933aa2196f0803e536c0b11bd1a88c4c.js",
-    "service-worker.js": "/RecomenderSystemGroup5.git/service-worker.js",
-    "static/css/main.ae80000b.chunk.css.map": "/RecomenderSystemGroup5.git/static/css/main.ae80000b.chunk.css.map",
-    "static/js/2.3f155aaa.chunk.js.LICENSE": "/RecomenderSystemGroup5.git/static/js/2.3f155aaa.chunk.js.LICENSE",
-    "static/media/b001.png": "/RecomenderSystemGroup5.git/static/media/b001.47638326.png",
-    "static/media/b01e.png": "/RecomenderSystemGroup5.git/static/media/b01e.d7d3f7cd.png"
+    "main.css": "/RecomenderSystemGroup5/static/css/main.ae80000b.chunk.css",
+    "main.js": "/RecomenderSystemGroup5/static/js/main.a8387df7.chunk.js",
+    "main.js.map": "/RecomenderSystemGroup5/static/js/main.a8387df7.chunk.js.map",
+    "runtime-main.js": "/RecomenderSystemGroup5/static/js/runtime-main.967711bb.js",
+    "runtime-main.js.map": "/RecomenderSystemGroup5/static/js/runtime-main.967711bb.js.map",
+    "static/js/2.3f155aaa.chunk.js": "/RecomenderSystemGroup5/static/js/2.3f155aaa.chunk.js",
+    "static/js/2.3f155aaa.chunk.js.map": "/RecomenderSystemGroup5/static/js/2.3f155aaa.chunk.js.map",
+    "index.html": "/RecomenderSystemGroup5/index.html",
+    "precache-manifest.555cc81ef4c04bdddbf25bcd7b239c96.js": "/RecomenderSystemGroup5/precache-manifest.555cc81ef4c04bdddbf25bcd7b239c96.js",
+    "service-worker.js": "/RecomenderSystemGroup5/service-worker.js",
+    "static/css/main.ae80000b.chunk.css.map": "/RecomenderSystemGroup5/static/css/main.ae80000b.chunk.css.map",
+    "static/js/2.3f155aaa.chunk.js.LICENSE": "/RecomenderSystemGroup5/static/js/2.3f155aaa.chunk.js.LICENSE",
+    "static/media/b001.png": "/RecomenderSystemGroup5/static/media/b001.47638326.png",
+    "static/media/b01e.png": "/RecomenderSystemGroup5/static/media/b01e.d7d3f7cd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9517bcce.js",
+    "static/js/runtime-main.967711bb.js",
     "static/js/2.3f155aaa.chunk.js",
     "static/css/main.ae80000b.chunk.css",
-    "static/js/main.f74233ce.chunk.js"
+    "static/js/main.a8387df7.chunk.js"
   ]
 }
