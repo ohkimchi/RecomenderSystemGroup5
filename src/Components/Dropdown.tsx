@@ -4,8 +4,10 @@ import InputLabel from '@material-ui/core/InputLabel'
 import MenuItem from '@material-ui/core/MenuItem'
 import Select from '@material-ui/core/Select'
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles'
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { AppActionType, AppContext } from '../App/AppReducer'
+import b01e from "../pics/B01EUTM45A_0.jpg"
+import b001 from "../pics/B0013XWDGC_0.jpg"
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -24,6 +26,7 @@ export const Dropdown = (props: any) => {
   const { userElements, itemElements } = props
   console.log(userElements)
   const { state, dispatch } = useContext(AppContext)
+  const { itemID } = state
   const classes = useStyles()
   const [age, setAge] = React.useState<string | number>('')
   const [open, setOpen] = React.useState(false)
@@ -55,10 +58,10 @@ export const Dropdown = (props: any) => {
   return (
     <div>
       <Button className={ classes.button } onClick={ handleOpen }>
-        {userElements ? 'Select one user ID' : 'Select one item ID'}
+        { userElements ? 'Select one user ID' : 'Select one item ID' }
       </Button>
       <FormControl className={ classes.formControl }>
-        <InputLabel id='demo-controlled-open-select-label'>{userElements ? 'User ID' : 'Item ID'}</InputLabel>
+        <InputLabel id='demo-controlled-open-select-label'>{ userElements ? 'User ID' : 'Item ID' }</InputLabel>
         <Select
           labelId='demo-controlled-open-select-label'
           id='demo-controlled-open-select'
@@ -73,11 +76,14 @@ export const Dropdown = (props: any) => {
           </MenuItem>
 
           {
-            userElements && userElements.map((x: string, i: number) => <MenuItem key={ `${x}-${i}`} value={ x }>{ x }</MenuItem>)
+            userElements && userElements.map((x: string, i: number) => <MenuItem key={ `${x}-${i}` } value={ x }>{ x }</MenuItem>)
           }
-          { itemElements && itemElements.map((x: string, i: number) => <MenuItem key={ `${x}-${i}` } value={ x }>{ x }</MenuItem>)}
+          { itemElements && itemElements.map((x: string, i: number) => <MenuItem key={ `${x}-${i}` } value={ x }>{ x }</MenuItem>) }
+
         </Select>
       </FormControl>
+      { itemElements && itemID === "B0013XWDGC_0" && <img src={ b001 } /> }
+      { itemElements && itemID === "B01EUTM45A_0" && <img src={ b01e } /> }
     </div>
   )
 }
