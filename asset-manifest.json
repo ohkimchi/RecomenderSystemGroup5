@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/RecomenderSystemGroup5/static/css/main.83745902.chunk.css",
-    "main.js": "/RecomenderSystemGroup5/static/js/main.569d4717.chunk.js",
-    "main.js.map": "/RecomenderSystemGroup5/static/js/main.569d4717.chunk.js.map",
+    "main.js": "/RecomenderSystemGroup5/static/js/main.8ba2b620.chunk.js",
+    "main.js.map": "/RecomenderSystemGroup5/static/js/main.8ba2b620.chunk.js.map",
     "runtime-main.js": "/RecomenderSystemGroup5/static/js/runtime-main.967711bb.js",
     "runtime-main.js.map": "/RecomenderSystemGroup5/static/js/runtime-main.967711bb.js.map",
     "static/js/2.2a82cadf.chunk.js": "/RecomenderSystemGroup5/static/js/2.2a82cadf.chunk.js",
     "static/js/2.2a82cadf.chunk.js.map": "/RecomenderSystemGroup5/static/js/2.2a82cadf.chunk.js.map",
     "index.html": "/RecomenderSystemGroup5/index.html",
-    "precache-manifest.4520a066ccdc5d1a35647f5019cc2eaf.js": "/RecomenderSystemGroup5/precache-manifest.4520a066ccdc5d1a35647f5019cc2eaf.js",
+    "precache-manifest.7df0b26591b83c82694111370ad2c830.js": "/RecomenderSystemGroup5/precache-manifest.7df0b26591b83c82694111370ad2c830.js",
     "service-worker.js": "/RecomenderSystemGroup5/service-worker.js",
     "static/css/main.83745902.chunk.css.map": "/RecomenderSystemGroup5/static/css/main.83745902.chunk.css.map",
     "static/js/2.2a82cadf.chunk.js.LICENSE": "/RecomenderSystemGroup5/static/js/2.2a82cadf.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.967711bb.js",
     "static/js/2.2a82cadf.chunk.js",
     "static/css/main.83745902.chunk.css",
-    "static/js/main.569d4717.chunk.js"
+    "static/js/main.8ba2b620.chunk.js"
   ]
 }
