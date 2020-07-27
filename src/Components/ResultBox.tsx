@@ -8,10 +8,16 @@ export const ResultBox = (props: any) => {
   return (
     <div>
       { userID !== '' && (
-        <div>{ cornacRecommendations[userID].join(', ') }</div>
+        <div>
+          Recommended items for this user:
+          <div>{ cornacRecommendations[userID].join(', ') }</div>
+        </div>
       ) }
       { itemID !== '' && (
-        <div> { imageRecommendations[itemID].join(', ') }</div>
+        <div>
+          Items that are likely to be co-purchased/co-viewed:
+          <div> { imageRecommendations[itemID].join(', ') }</div>
+        </div>
       ) }
       { itemID === 'B0013XWDGC_0' && <img src={ b001 } /> }
       { itemID === 'B01EUTM45A_0' && <img src={ b01e } /> }
